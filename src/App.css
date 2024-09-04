@@ -1,0 +1,987 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+
+.welcomeSection{
+  /* border: 1px solid red; */
+     height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .welcomeBody{
+    /* border: 1px solid green; */
+    height:100%;
+   width: 100%;
+   max-width: 90%;
+   display: flex;
+   justify-content: center;
+  }
+.imgBox{
+  /* border: 1px solid red; */
+  height: auto;
+  width:  auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  /* border: 1px solid red; */
+  height: 200px;
+  width: 400px;
+}
+.img2{
+  /* border: 1px solid red; */
+   height: 200px;
+  width: 150px;
+  margin-top: 50px;
+   border-radius: 8px;
+  cursor: pointer;
+}
+.navSection{
+  height: 80px;
+  background-color:white;
+  color: orangered;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-size: large;
+  box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3);
+  
+}
+.swiggyPngLogodiv{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+}
+.company{
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+ }
+ .firmName{
+  margin-right: 200px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+ }
+ .swiggyPngLogoBox{
+    /* border: 2px solid rgb(11, 224, 160); */
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+.swiggyPngLogo{
+  /* border: 2px solid rgb(11, 224, 160); */
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+ }
+.swiggyPngLogo:hover{
+ height: 55px;
+  width: 55px;
+}
+/* ***********************sideBarSection*********************** */
+
+.sideBarSection{
+  background-color:white;
+  color: orangered;
+  border: 1px solid ;
+  width: 100%;
+  max-width: 13%;
+  height: 60vh;
+  border: none;
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;}
+
+  
+/*  .sideBarSection  li{
+  background-color: #F46036;
+  color: white;
+  border: 1px solid ;
+  width: 100%;
+  max-width: 15%;
+  height: 86vh;
+  } */
+  .sideBarSection ul {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .sideBarSection ul li{
+      padding: 10px;
+    list-style: none;
+     font-size: medium;
+    font-weight: 600;
+     cursor: pointer;
+     color: gray;
+ }
+ .sideBarSection ul li:hover{
+  background-color: rgb(230, 230, 233);
+  color: orangered;
+ } 
+ .collectionSection{
+  display: flex;
+ }
+      /****************** Register Section ******************/  
+     .registerSection{
+      /* border: 1px solid red; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+    }
+    .registerSectionHead{
+      color: orangered;
+      font-size: 27px;
+      font-weight: 600;
+    }
+    .registerAuthFormUsername{
+      margin-top: 30px;
+    }
+
+ .registerAuthForm{
+   /* border: 1px solid gray; */
+    width: 100%;
+   height: 450px;
+   max-width: 50%;
+   border-radius: 10px;
+   margin-top:50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+ }
+ 
+ .registerAuthForm input{
+   width: 100%;
+   max-width: 55%;
+   height: 1.4rem;
+   padding:8px;
+   border:none;
+   border-bottom: 1px solid orangered;
+   outline: none;
+ }
+ .registerAuthForm label{
+   /* border: 1px solid red; */
+   width: 100%;
+   max-width: 58%;
+   font-weight: 400;
+ }
+ .registerAuthForm input{
+  background-color: rgb(216, 229, 243);
+ }
+ 
+ 
+   .checkboxLink{
+     /* border: 1px solid red; */
+     display: flex;
+     width: 360px;
+     flex-direction: column;
+   }
+   .agreeCheckbox{
+     /* border: 1px solid rgb(10, 207, 43); */
+     width: 100%;
+     max-width: 58%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     }
+     .agreeCheckbox p{
+       /* border: 1px solid rgb(212, 22, 47); */
+       font-size: 12px;
+     }
+ 
+     .agreeCheckbox div{
+       font-size: 15px;
+     }
+     .agreeCheckbox div:hover{
+       color: orangered;
+       cursor: pointer;
+     }
+     input[type="checkbox"] {
+       width: 15px;
+       height: 15px;
+       cursor: pointer;
+       background-color: #D7263D;
+     }
+     input[type="checkbox"]:focus {
+       outline: none;
+       /* box-shadow: 0 0 3px 2px rgba(0, 123, 255, 0.5); */
+     }
+  
+  
+   .linkLogin{
+     /* border: 1px solid rgb(212, 22, 47); */
+     width: 200px;
+     height: 40px;
+     font-size: 15px;
+   }
+   .linkLogin span{
+     margin-left: 3px;
+     color:orangered;
+     cursor: pointer;
+   }
+   
+   .logInBtnSubmit {
+     /* border: 1px solid rgb(71, 182, 20); */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+   .logInBtnSubmit button{
+     height: 40px;
+     width: 100px;
+      border: none;
+     border-radius: 10px;
+     background-color: orangered;
+     cursor: pointer;
+     color: white;
+     box-shadow:rgb(255, 100, 50) 0px 2px 4px 0px,  orangered 0px 2px 16px 0px; 
+    }
+       
+     .logInBtnSubmit button:hover{
+        box-shadow: none;
+     }
+   
+ 
+ /****************** Login Section ******************/
+
+ .loginSection{
+   /* border: 1px solid red; */
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+  }
+  .logInSectionHead{
+    color: orangered;
+    font-size: 30px;
+    font-weight: 600;
+  }
+.authForm{
+  /* border: 1px solid gray; */
+   width: 100%;
+  height: 380px;
+  max-width: 50%;
+  border-radius: 10px;
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.loginSectionEmail{
+  margin-top: 30px;
+}
+.authForm input{
+  width: 100%;
+  max-width: 55%;
+  height: 1.4rem;
+  padding:8px;
+  border:none;
+  border-bottom: 1px solid orangered;
+  outline: none;
+}
+.authForm label{
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 58%;
+  font-weight: 400;
+}
+
+.passwordEye{
+  color: black;  
+ }
+.passwordEye:hover{
+  color: orangered;  
+ }
+  .checkboxLink{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+  }
+  .agreeCheckbox{
+    /* border: 1px solid rgb(10, 207, 43); */
+    width: 100%;
+    max-width: 58%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .agreeCheckbox p{
+      /* border: 1px solid rgb(212, 22, 47); */
+      font-size: 12px;
+    }
+    .agreeCheckbox div{
+      font-size: 15px;
+    }
+    .agreeCheckbox div:hover{
+      color: orangered;
+      cursor: pointer;
+    }
+    input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      background-color: #D7263D;
+    }
+    input[type="checkbox"]:focus {
+      outline: none;
+      /* box-shadow: 0 0 3px 2px rgba(0, 123, 255, 0.5); */
+    }
+ 
+ 
+  .linkRegister{
+    /* border: 1px solid rgb(212, 22, 47); */
+    width: 230px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .linkRegister span{
+    margin-left: 3px;
+    color:orangered;
+    cursor: pointer;
+  }
+  
+  .logInBtnSubmit {
+    /* border: 1px solid rgb(71, 182, 20); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+  .logInBtnSubmit button{
+    height: 40px;
+    width: 100px;
+     border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    box-shadow:rgb(255, 100, 50) 0px 2px 4px 0px,  orangered 0px 2px 16px 0px; 
+   }
+      
+    .logInBtnSubmit button:hover{
+       box-shadow: none;
+    }
+  
+
+    /****************** Add Firm Section ******************/
+    .firmSection{
+      /* border: 1px solid red; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+    }
+    
+    .tableForm{
+      /* border: 2px solid red; */
+      width: 100%;
+      max-width: 80%;
+      height: 470px;
+      border-radius: 10px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    }
+    .addfirmCompany{
+      margin-top: 20px;
+      font-size: 28px;
+      font-weight: 600;
+      color:orangered;
+      
+    }
+    
+    .firmNameAreaBox{
+      /* border: 2px solid red; */
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+  /*   .productBox{
+      border: 1px solid red;
+    }
+    .priceBox{
+      border: 1px solid red;
+    } */
+    .firmNameAreaBox label{
+      /* border: 3px solid rgb(7, 20, 194); */
+      height: 30px;
+      width: fit-content;  
+      font-size: 18px;   
+      font-weight:500; 
+     }
+    
+    .firmNameAreaBox input{
+      /* border: 3px solid rgb(7, 20, 194); */
+      height: 30px;
+      width: 300px;   
+      border: none;
+      border-bottom: 1px solid orangered;
+      background-color: whitesmoke;
+      outline: none;
+    }
+/*     .checboxContainer{
+      border: 3px solid rgb(7, 20, 194);  
+    } */
+    .vegNonVegRegionBox{
+      /* border: 2px solid rgb(218, 7, 218); */
+      margin-top: 35px;
+      height: 120px;
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    
+    .inputContainers label{
+      font-size: 12px;
+    }
+    .inputContainers{
+      /* border: 3px solid rgb(223, 44, 12); */
+      width: 100%;
+      max-width: 60%;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items:flex-start;
+      
+    }
+    .RegionBoxCheckboxcontainer{
+      /* border: 3px solid rgb(223, 44, 12); */
+      width: 100%;
+      max-width: 70%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+    }
+    .RegionBoxCheckboxcontainer label{
+      font-size: 13px;
+    }
+    .checkboxcontainer{
+      /* border: 3px solid rgb(7, 194, 79); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .checkboxcontainerBakery{
+      /* border: 3px solid rgb(7, 194, 79); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 37px;
+    }
+    .vegNonVegBox{
+      /* border: 3px solid rgb(7, 20, 194); */
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+    }
+    .RegionBox{
+      /* border: 3px solid rgb(7, 20, 194); */
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      margin-right: 50px;
+    }
+    
+    .offersBox{
+      /* border: 3px solid rgb(7, 20, 194); */
+      margin-top: 20px;
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .offersBox input{
+      width: 100%;
+      max-width: 90%;
+      height: 25px;
+      border: none;
+      outline: none;
+      background-color: whitesmoke;
+      border-bottom: 1px solid orangered;
+    }
+    
+    .firmImageBox{
+      /* border: 3px solid rgb(7, 20, 194); */
+      margin-top: 20px;
+      width: 100%;
+      max-width: 80%;
+      display: flex; 
+    }
+   
+    .uploadImg{
+      /* border: 2px solid rgb(0, 255, 64); */
+      height: 60px;
+      width: 60px;
+      display: flex;
+    }
+    
+ 
+    .firmImageBox input{
+      /* border: 2px solid red; */
+      height: 60px;
+      width: 60px;
+      margin-left: 110px;
+      margin-top: 10px;
+      cursor: pointer;
+       
+    }
+    .uploadImg{
+      /* border: 2px solid rgb(0, 255, 64); */
+      height: 60px;
+      width: 60px;
+      display: flex;
+      margin-left: 10px;
+      margin-top: 10px;
+     }
+    
+    
+    .firmImg{
+      /* border: 2px solid rgb(0, 255, 64); */
+      height: 50px;
+      width: 80px;
+      color: gray;
+     }
+    .firmImg:hover {
+      color: orangered; /* Change this to the color you want */
+    }
+    /* Basic styling on the file input */
+    input[type="file"] {
+      opacity: 0;
+       position: absolute;
+      z-index: 1;
+      color: #D7263D;
+    }
+    
+    
+  .firmBtnSubmit button{
+    height: 40px;
+    width: 100px;
+     border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    box-shadow:rgb(255, 100, 50) 0px 2px 4px 0px,  orangered 0px 2px 16px 0px;  }
+      
+    .firmBtnSubmit button:hover{
+       box-shadow: none;
+    }
+    
+    
+    /****************** Add Product Section ******************/
+    
+    .productSection{
+      /* border: 1px solid red; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+    }
+    
+    .productBoxHeading{
+      font-size: 28px;
+      font-weight: 600;
+      color: orangered;
+    }
+    .productTableForm{
+      /* border: 2px solid red; */
+      width: 100%;
+      max-width: 80%;
+      height: 450px;
+      border-radius: 10px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    }
+  
+    
+    .productPriceBox{
+      /* border: 2px solid red; */
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    /* .productBox{
+      border: 1px solid red;
+    }
+    .priceBox{
+      border: 1px solid red;
+    } */
+    .productPriceBox label{
+      
+      /* border: 3px solid rgb(7, 20, 194); */
+      height: 30px;
+      width: fit-content;  
+      font-size: 18px;   
+      font-weight:500; 
+    }
+    .productPriceBox input{
+      /* border: 3px solid rgb(7, 20, 194); */
+      height: 30px;
+      width: 300px;   
+      border: none;
+      background-color: whitesmoke;
+      border-bottom: 1px solid orangered;
+      outline: none;
+    }
+/*     .checboxContainer{
+      border: 3px solid rgb(7, 20, 194);   
+    } */
+    .vegNonVegBestSellerBox{
+      /* border: 2px solid rgb(218, 7, 218); */
+      margin-top: 40px;
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .vegNonVegBox{
+      /* border: 3px solid rgb(7, 20, 194); */
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+    }
+    .bestSellerBox{
+      /* border: 3px solid rgb(7, 20, 194); */
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+    }
+    .vegNonVegBestSellerBox label{
+      /* border: 3px solid rgb(7, 20, 194); */
+      height: 30px;
+      width: fit-content;   
+       font-size: 18px;   
+      font-weight:500;
+    }
+    /* .vegNonVegBestSellerBox input{
+      border: 3px solid rgb(7, 20, 194);      
+     } */
+     .inputsContainer {
+      /* border: 1px solid rgb(209, 207, 207); */
+      width: 200px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .descriptionBox{
+      /* border: 2px solid rgb(0, 255, 64); */
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      margin-top: 20px;
+    }
+    .descriptionBox label{
+      height: 30px;
+      width: fit-content;   
+      font-size: 18px;   
+      font-weight:500;
+    }
+    .descriptionBox input{
+      height: 30px;
+      width: 100%;
+      max-width: 85%;
+       font-weight:500; 
+       margin-top: 20px;
+         border: none;
+      outline: none;
+      background-color: whitesmoke;
+      border-bottom: 1px solid orangered;
+       
+    }
+    .productImageBox{
+      /* border: 2px solid rgb(0, 255, 64); */
+      width: 100%;
+      max-width: 80%;
+      display: flex;
+      margin-top: 20px;
+    }
+ 
+    .productImageBox label{
+      font-size: 18px;   
+      font-weight:500;
+    }
+    .productImageBox input{
+      /* border: 2px solid red; */
+      height: 60px;
+      width: 60px;
+      margin-left: 110px;
+      margin-top: 10px;
+      cursor: pointer;
+       
+    }
+    .uploadImg{
+      /* border: 2px solid rgb(0, 255, 64); */
+       height: 60px;
+      width: 60px;
+      display: flex;
+      margin-left: 10px;
+      margin-top: 10px;
+     }
+     .uploadImg:hover .firmImg {
+      color: orangered; /* Change this to the color you want */
+    }
+    .img{
+      /* border: 2px solid rgb(0, 255, 64); */
+      border-radius: 50px;
+      height: 50px;
+      width: 80px;
+      color: gray;
+    }
+  
+    
+    /* Basic styling on the file input */
+    input[type="file"] {
+      opacity: 0;
+       position: absolute;
+      z-index: 1;
+      color: #D7263D;
+    }
+ 
+ 
+
+  .productBtnSubmit button{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+     border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    box-shadow:rgb(255, 100, 50) 0px 2px 4px 0px,  orangered 0px 2px 16px 0px;  }
+      
+    .productBtnSubmit button:hover{
+       box-shadow: none;
+    }
+
+     /****************** CHECK BOX INPUTS ******************/
+ 
+/*  .checkInp{
+  width: 100%;
+  max-width: 57%;
+  display: flex;
+}
+ 
+ .checkboxcontainer{
+  width: 100%;
+  max-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .checkboxcontainer label{
+  width: 100%;
+  font-size: 11px;
+ }
+
+ .checkboxcontainer input{
+ margin-left: 5px;
+ } */
+
+  /****************** Show Product Section ******************/
+
+
+  .productSection{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+.productForm{
+width: 100%;
+max-width: 50%;
+border: 1px solid gray;
+border-radius: 1rem;
+margin-top: -10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+    
+.productForm input{
+width: 100%;
+max-width: 85%;
+height: 30px;
+margin-bottom: 10px;
+}
+.productForm label{
+width: 100%;
+max-width: 85%;
+font-weight: 500;
+}
+    
+.userAuth span{
+
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px;
+  border: 1px solid #c5c4c4;
+  padding: 10px;
+  border-radius: 5px;
+}
+.userAuth span:hover{
+  color: orangered;
+  border: 1px solid orangered;
+ }
+
+
+/****************** ALL PRODUCT PAGE ******************/
+
+.product-table{
+  /* border: 2px solid gray; */
+  width: 77vw;
+  border-collapse: collapse;
+  margin-top: 50px;
+  /* margin-left:10px; */
+}
+
+.product-table th,
+.product-table td{
+  border: 1px solid white ;
+  padding: 8px;
+  border-radius: 8px;
+}
+ 
+.product-table th{
+  background-color: rgb(100, 99, 99);
+  color: white;
+ text-align: center;
+ font-size: 18px;
+}
+.product-table td{
+  background-color: rgb(212, 211, 211);
+  text-align: center;
+  font-size: 17 px;
+}
+
+.deleteBtn{
+  height: 35px;
+  width: 80px;
+  background-color:white;
+  color:red;
+  border:1px solid red;
+  border-radius: 5px;
+  transition:600ms;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.deleteBtn:hover{
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+}
+.editBtn{
+  height: 35px;
+  width: 80px;
+  background-color:white;
+  color:rgb(90, 119, 201);
+  border:1px solid rgb(90, 119, 201);
+  border-radius: 5px;
+  transition:600ms;
+}
+.editBtn:hover{
+  border-radius: 20px;
+  cursor: pointer;
+  background-color:rgb(90, 119, 201);
+  color: white;
+}
+
+/* *************** Not Found Page *************** */
+
+.errorSection{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.errorSection h1{
+  color: red;
+  font-size: 4rem;
+}
+
+
+h3{
+  color:#D7263D;
+}
+
+/* *************** Button Color *************** */
+
+.btnSubmit button{
+  background-color: rgb(43,43,180);
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  width: 6rem;
+  border-radius: 5px;
+}
+
+ /* ************UserDetailsPage*************** */
+
+
+.userDetailsPage{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
