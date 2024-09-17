@@ -38,10 +38,10 @@ const Login = ({showWelcomeHandler,showRegisterHandler}) => {
       const vendorData = await vendorResponse.json();
       if(vendorResponse.ok){
         const vendorFirmId = vendorData.vendorFirmId;
+        console.log("Checking for vendorData:-",vendorData );
         const FirmName = vendorData.vendor.firm[0].firmName;
         localStorage.setItem('firmId',vendorFirmId)
         localStorage.setItem('firmName',FirmName)
-        // console.log("Checking for vendorFirmId:-",vendorFirmId );
         // console.log("Checking for FirmName :- ",FirmName );
         window.location.reload()
       }

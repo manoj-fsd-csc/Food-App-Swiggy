@@ -42,7 +42,7 @@ const AddProduct = () => {
               console.error("user not authenticated")
           }
           if(loginToken || firmId){
-            console.log("Sucefully add a product")
+            // console.log("Sucefully add a product")
         }
           
         const formData = new FormData();

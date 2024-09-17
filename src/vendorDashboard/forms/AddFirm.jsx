@@ -68,7 +68,7 @@ import { SlCloudUpload } from "react-icons/sl";
         });
 
         const data = await response.json(); // Correctly handle the response
-        console.log("data:",data);
+        // console.log("data:",data);
         if (response.ok) {
             console.log("data:",data);
             setFirmName("")
@@ -85,9 +85,9 @@ import { SlCloudUpload } from "react-icons/sl";
          else{
           alert('Failed to add firm')
          }
-        console.log("This is firmID",data.firmId);
+        // console.log("This is firmID",data.firmId);
          const mango = data.firmId;  
-        console.log(mango)
+        // console.log(mango)
         localStorage.setItem('firmId',data.firmId) 
           firmIdPresent()
         } catch (error) {
