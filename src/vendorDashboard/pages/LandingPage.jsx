@@ -58,7 +58,7 @@ const LandingPage = () => {
 
   const logOutHandler =()=>{
     confirm("Are you sure to logout?")
-    if(true){
+    if(confirm){
       localStorage.removeItem("loginToken");
       localStorage.removeItem("firmId");
       localStorage.removeItem('firmName');
