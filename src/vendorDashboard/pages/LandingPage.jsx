@@ -58,6 +58,7 @@ const LandingPage = () => {
 
   const logOutHandler =()=>{
     confirm("Are you sure to logout?")
+    if(true){
       localStorage.removeItem("loginToken");
       localStorage.removeItem("firmId");
       localStorage.removeItem('firmName');
@@ -65,6 +66,8 @@ const LandingPage = () => {
       setShowFirmTitle(true)
       setShowUserDetails(false)
       /* setShowWelcome(false) */
+    }
+
   }
 
 
